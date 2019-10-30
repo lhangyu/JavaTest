@@ -9,4 +9,7 @@ public class HellowController {
     public String hello(){
         return "Hellow World";
     }
+    public int test(int a,int b){
+        return  a+b;
+    }
 }
